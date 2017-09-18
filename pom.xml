@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.remind.plugin</groupId>
-    <artifactId>rong-cloud</artifactId>
+    <artifactId>rong-cloud-sdk</artifactId>
     <version>1.0.0</version>
     <name>rong-cloud-sdk</name>
     <description>Copyright © 2015-2017 Shenzhen Remind Technology Co,.Ltd. All rights reserved.</description>
@@ -58,6 +58,14 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                </configuration>
             </plugin>
         </plugins>
     </build>

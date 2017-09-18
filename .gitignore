@@ -2,4 +2,4 @@
 target/
 
 .idea/*
-rong-cloud.iml
+*.iml
