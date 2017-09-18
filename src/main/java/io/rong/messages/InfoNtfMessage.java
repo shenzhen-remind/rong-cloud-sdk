@@ -24,13 +24,13 @@ public class InfoNtfMessage extends BaseMessage {
 	/**
 	 * 获取提示条消息内容。
 	 *
-	 * @returnString
-	 */
-	public String getMessage() {
-		return message;
-	}
-	
-	/**
+     * @return
+     */
+    public String getMessage() {
+        return message;
+    }
+
+    /**
 	 * 设置提示条消息内容。
 	 *
 	 * @return
@@ -42,13 +42,13 @@ public class InfoNtfMessage extends BaseMessage {
 	/**
 	 * 获取附加信息(如果开发者自己需要，可以自己在 App 端进行解析)。
 	 *
-	 * @returnString
-	 */
-	public String getExtra() {
-		return extra;
-	}
-	
-	/**
+     * @return
+     */
+    public String getExtra() {
+        return extra;
+    }
+
+    /**
 	 * 设置附加信息(如果开发者自己需要，可以自己在 App 端进行解析)。
 	 *
 	 * @return

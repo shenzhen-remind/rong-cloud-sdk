@@ -26,13 +26,13 @@ public class ProfileNtfMessage extends BaseMessage {
 	/**
 	 * 获取为资料通知操作，可以自行定义。
 	 *
-	 * @returnString
-	 */
-	public String getOperation() {
-		return operation;
-	}
-	
-	/**
+     * @return
+     */
+    public String getOperation() {
+        return operation;
+    }
+
+    /**
 	 * 设置为资料通知操作，可以自行定义。
 	 *
 	 * @return
@@ -44,13 +44,13 @@ public class ProfileNtfMessage extends BaseMessage {
 	/**
 	 * 获取操作的数据。
 	 *
-	 * @returnString
-	 */
-	public String getData() {
-		return data;
-	}
-	
-	/**
+     * @return
+     */
+    public String getData() {
+        return data;
+    }
+
+    /**
 	 * 设置操作的数据。
 	 *
 	 * @return
@@ -62,13 +62,13 @@ public class ProfileNtfMessage extends BaseMessage {
 	/**
 	 * 获取附加内容(如果开发者自己需要，可以自己在 App 端进行解析)。
 	 *
-	 * @returnString
-	 */
-	public String getExtra() {
-		return extra;
-	}
-	
-	/**
+     * @return
+     */
+    public String getExtra() {
+        return extra;
+    }
+
+    /**
 	 * 设置附加内容(如果开发者自己需要，可以自己在 App 端进行解析)。
 	 *
 	 * @return

@@ -30,13 +30,13 @@ public class ContactNtfMessage extends BaseMessage {
 	/**
 	 * 获取操作名。
 	 *
-	 * @returnString
-	 */
-	public String getOperation() {
-		return operation;
-	}
-	
-	/**
+     * @return
+     */
+    public String getOperation() {
+        return operation;
+    }
+
+    /**
 	 * 设置操作名。
 	 *
 	 * @return
@@ -48,13 +48,13 @@ public class ContactNtfMessage extends BaseMessage {
 	/**
 	 * 获取为附加信息(如果开发者自己需要，可以自己在 App 端进行解析)。
 	 *
-	 * @returnString
-	 */
-	public String getExtra() {
-		return extra;
-	}
-	
-	/**
+     * @return
+     */
+    public String getExtra() {
+        return extra;
+    }
+
+    /**
 	 * 设置为附加信息(如果开发者自己需要，可以自己在 App 端进行解析)。
 	 *
 	 * @return
@@ -66,13 +66,13 @@ public class ContactNtfMessage extends BaseMessage {
 	/**
 	 * 获取请求者或者响应者的 UserId。
 	 *
-	 * @returnString
-	 */
-	public String getSourceUserId() {
-		return sourceUserId;
-	}
-	
-	/**
+     * @return
+     */
+    public String getSourceUserId() {
+        return sourceUserId;
+    }
+
+    /**
 	 * 设置请求者或者响应者的 UserId。
 	 *
 	 * @return
@@ -84,13 +84,13 @@ public class ContactNtfMessage extends BaseMessage {
 	/**
 	 * 获取被请求者或者被响应者的 UserId。
 	 *
-	 * @returnString
-	 */
-	public String getTargetUserId() {
-		return targetUserId;
-	}
-	
-	/**
+     * @return
+     */
+    public String getTargetUserId() {
+        return targetUserId;
+    }
+
+    /**
 	 * 设置被请求者或者被响应者的 UserId。
 	 *
 	 * @return
@@ -102,13 +102,13 @@ public class ContactNtfMessage extends BaseMessage {
 	/**
 	 * 获取请求或者响应消息。
 	 *
-	 * @returnString
-	 */
-	public String getMessage() {
-		return message;
-	}
-	
-	/**
+     * @return
+     */
+    public String getMessage() {
+        return message;
+    }
+
+    /**
 	 * 设置请求或者响应消息。
 	 *
 	 * @return

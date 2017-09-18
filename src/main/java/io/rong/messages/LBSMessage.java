@@ -31,13 +31,13 @@ public class LBSMessage extends BaseMessage {
 	 * 获取位置图片缩略图，格式为 JPG，以 Base64 进行 Encode 后需要将所有 \r\n 和 \r 和 \
  替换成空。
 	 *
-	 * @returnString
-	 */
-	public String getContent() {
-		return content;
-	}
-	
-	/**
+     * @return
+     */
+    public String getContent() {
+        return content;
+    }
+
+    /**
 	 * 设置位置图片缩略图，格式为 JPG，以 Base64 进行 Encode 后需要将所有 \r\n 和 \r 和 \
  替换成空。
 	 *
@@ -50,13 +50,13 @@ public class LBSMessage extends BaseMessage {
 	/**
 	 * 获取为附加信息(如果开发者自己需要，可以自己在 App 端进行解析)。
 	 *
-	 * @returnString
-	 */
-	public String getExtra() {
-		return extra;
-	}
-	
-	/**
+     * @return
+     */
+    public String getExtra() {
+        return extra;
+    }
+
+    /**
 	 * 设置为附加信息(如果开发者自己需要，可以自己在 App 端进行解析)。
 	 *
 	 * @return
@@ -104,13 +104,13 @@ public class LBSMessage extends BaseMessage {
 	/**
 	 * 获取位置信息。
 	 *
-	 * @returnString
-	 */
-	public String getPoi() {
-		return poi;
-	}
-	
-	/**
+     * @return
+     */
+    public String getPoi() {
+        return poi;
+    }
+
+    /**
 	 * 设置位置信息。
 	 *
 	 * @return

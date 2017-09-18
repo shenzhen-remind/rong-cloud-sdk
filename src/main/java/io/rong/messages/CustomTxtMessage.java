@@ -22,13 +22,13 @@ public class CustomTxtMessage extends BaseMessage {
 	/**
 	 * 获取自定义消息内容。
 	 *
-	 * @returnString
-	 */
-	public String getContent() {
-		return content;
-	}
-	
-	/**
+     * @return
+     */
+    public String getContent() {
+        return content;
+    }
+
+    /**
 	 * 设置自定义消息内容。
 	 *
 	 * @return

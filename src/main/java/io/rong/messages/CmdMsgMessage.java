@@ -24,7 +24,7 @@ public class CmdMsgMessage extends BaseMessage {
 	/**
 	 * 获取命令名称，可以自行定义
 	 *
-	 * @returnString
+	 * @return
 	 */
 	public String getName() {
 		return name;
@@ -42,7 +42,7 @@ public class CmdMsgMessage extends BaseMessage {
 	/**
 	 * 获取命令的内容
 	 *
-	 * @returnString
+	 * @return
 	 */
 	public String getData() {
 		return data;
