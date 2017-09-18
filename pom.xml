@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.remind.plugin</groupId>
+    <artifactId>rong-cloud</artifactId>
+    <version>1.0.0</version>
+    <name>rong-cloud-sdk</name>
+    <description>Copyright © 2015-2017 Shenzhen Remind Technology Co,.Ltd. All rights reserved.</description>
+    <organization>
+        <name>Shenzhen Remind Technology Co,.Ltd</name>
+        <url>http://www.reminding.cn</url>
+    </organization>
+    <developers>
+        <developer>
+            <id>xuchen_zhou@reminding.cn</id>
+            <name>Xuchen Zhou</name>
+            <email>xuchen_zhou@reminding.cn</email>
+            <url>https://www.zhouxuchen.com</url>
+            <organization>Remind</organization>
+            <organizationUrl>http://www.reminding.cn</organizationUrl>
+            <roles>
+                <role>developer</role>
+            </roles>
+            <timezone>China/Shen_Zhen</timezone>
+        </developer>
+    </developers>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.8.1</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.10</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <finalName>${project.artifactId}</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <skipTests>true</skipTests>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>
