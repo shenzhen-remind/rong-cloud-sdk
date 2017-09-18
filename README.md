@@ -9,6 +9,15 @@ Rong Cloud Server SDK in Java.
 # API文档
 - 官方文档(http://www.rongcloud.cn/docs/server.html)
 
+# Maven
+```
+<dependency>
+    <groupId>com.remind.plugin</groupId>
+    <artifactId>rong-cloud-sdk</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
+
 # 使用教程
 * 请参考 Example.java 上面提供了所有的 API 接口的调用用例。
 
